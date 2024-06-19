@@ -1,7 +1,8 @@
 # MedSam_Pneumonia
-This is a project for the Chest X-Ray Image Classification - Pneumonia. The goal of this project is to classify chest X-ray images into two classes: normal and pneumonia. 
-This code can be applied to any medical image classification task.
+This is a project for the Chest X-Ray Image Classification - Pneumonia, submitted in partial fulfillment of the requirements for the degree of Master of Technology in Computer Science and Engineering
 
+The goal of this project is to classify chest X-ray images into two classes: normal and pneumonia. 
+This code can be applied to any medical image classification task.
 It leverages MedSAM model. https://github.com/bowang-lab/MedSAM
 
 ## Dataset
@@ -32,21 +33,18 @@ Note: For more details please refer to the report.
 
 ## Results
 1. MedSAM Embeddings
+
    ![MedSAMOnly_Results](resources/images/MedSAMOnly_Results.png)
 2. Contrastive Loss
+
    ![ContrastiveLoss_Results](resources/images/ContrastiveLoss_Results.png)
 3. DANN
+
    ![DANN_Results](resources/images/DANN_Results.png)
 4. DANN + Augmentation
+
    ![DANNWithAugmentation_Results](resources/images/DANNWithAugmentation_Results.png)
 
-## Reference
-
-```
-@article{MedSAM,
-  title={Segment Anything in Medical Images},
-  author={Ma, Jun and He, Yuting and Li, Feifei and Han, Lin and You, Chenyu and Wang, Bo},
-  journal={arXiv preprint arXiv:2304.12306},
-  year={2023}
-}
-```
+## Contributors
+1. Mohan Nayak (CS21MDS14011) - mailtopyaremohan@gmail.com
+2. Subrat Mishra (CS21MDS14013) - subrat.mishra@gmail.com
